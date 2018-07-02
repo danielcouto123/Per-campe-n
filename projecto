@@ -1,5 +1,10 @@
 import.math
-a = int(input())
-b = int(input())
+d = "PROGRAMA PARA HALLAR LA HIPOTENUSA DEL TRIÁNGULO"
+print(d)
+x = int(input("Ingrese el valor del primer cateto: "))
+y = int(input("Ingrese el valor del segundo cateto: "))
 def f(a,b):
-  c = math.squart((a**2)+(b**2)
+  c = math.squart((a**2)+(b**2))
+  return c
+  
+print(f(x,y))
